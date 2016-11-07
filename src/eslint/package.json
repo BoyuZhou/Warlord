@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-adoyle-style",
+  "version": "2.1.1",
+  "description": "A set of eslint shareable configs for javascript code style, which follows ADoyle's code style.",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adoyle-h/eslint-config-adoyle-style.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "ADoyle <adoyle.h@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/adoyle-h/eslint-config-adoyle-style/issues"
+  },
+  "homepage": "https://github.com/adoyle-h/eslint-config-adoyle-style#readme",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "a-gulp-license": "^2.0.0",
+    "config-sp": "^0.1.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-conventional-changelog": "^0.7.0",
+    "gulp-filter": "^3.0.1",
+    "run-sequence": "^1.1.5"
+  },
+  "peerDependencies": {
+    "eslint": "~3.5.0"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-import": "~1.15.0",
+    "eslint-plugin-jsx-a11y": "~2.2.2",
+    "eslint-plugin-react": "~6.2.2"
+  }
+}
